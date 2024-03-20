@@ -11,8 +11,8 @@ env:
 jobs:
   test:
     env:
-      MONGODB_PASSWORD: sDfI0JVZGBvP2vDP
-      MONGODB_USERNAME: nuckeroni
+      MONGODB_PASSWORD: ${{ secrets.GITHUB_TOKEN.MONGODB_PASSWORD }}
+      MONGODB_USERNAME: ${{ secrets.GITHUB_TOKEN.MONGODB_USERNAME }}
     environment: testing
     runs-on: ubuntu-latest
     steps:
