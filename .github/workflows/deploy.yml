@@ -11,7 +11,7 @@ env:
 jobs:
   test:
     env:
-      MONGODB_PASSWORD: sDfI0JVZGBvP2vDP
+      MONGODB_PASSWORD: sDfI0JVZGBvP2vDP!!
       MONGODB_USERNAME: nuckeroni
     environment: testing
     runs-on: ubuntu-latest
